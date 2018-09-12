@@ -212,3 +212,167 @@ a {
 }
 
                             /* About us */
+
+.text {
+  color: #a8b9c0;
+  font-weight: 300;
+  padding-top: 35px;
+}
+
+.info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 100%;
+  max-width: 380px;
+  padding-top: 40px;
+}
+
+.info-text {
+  padding: 0 0 20px 0;
+}
+
+                                           /* meet the team */
+
+
+.meet-the-team {
+  background: #eef7fa;
+}
+
+.meet-the-team-text {
+  padding: 0;
+}
+
+.meet-the-team-title {
+  color: #ffc501;
+}
+
+.team-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.member {
+  width: 100%;
+  max-width: 270px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.member-photo {
+  width: 270px;
+  height: 220px;
+}
+
+.member-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  background: #00d6cb;
+}
+
+.blockquote {
+  padding: 35px 35px 40px 30px;
+}
+
+                                                /* clients */
+
+.clients-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 35px 52px 35px;
+}
+
+
+                                               /* advertise */
+
+.advertise {
+  background: #202a40;
+}
+
+.advertise-title{
+  color: #ffffff;
+}
+
+.advertise-text {
+  padding: 0 0 50px 0;
+}
+
+                                                  /* blog */
+
+.stories-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+.stori {
+  width: 100%;
+  max-width: 370px;
+}
+
+.stori-image {
+  width: 370px;
+  height: 135px;
+  background: #eef7fa;
+}
+
+.stori-date {
+  font-size: 13px;
+  font-weight: 300;
+  color: #a8b9c0;
+  padding: 20px 0 15px 0;
+}
+
+.stori-title {
+  font-size: 20px;
+  color: #1a2940;
+}
+
+.button-more {
+  margin-bottom: 55px;
+}
+
+.newsletter {
+  background: #ffc835;
+}
+
+.wrapper-newsletter {
+  padding: 20px 100px 20px 110px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 37px;
+}
+
+.sentence {
+  color: #1a2940;
+  font-size: 20px;
+}
+
+.email {
+  width: 440px;
+  outline: none;
+  border: none;
+  border-bottom: #ffffff solid 2px;
+  background: inherit;
+  color: #ffffff;
+  &::placeholder {
+    color: #ffffff;
+  }
+}
+
+.button-subscribe {
+  background: #1a2940;
+  &:hover {
+    background: #ffc835;
+    border: 1px solid #1a2940;
+    color: #1a2940;
+    padding: 9px 34px 9px 39px;
+    transition: .7s;
+  }
+}
