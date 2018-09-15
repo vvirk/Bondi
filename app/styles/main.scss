@@ -14,13 +14,17 @@ a {
 
 .header {
   width: 100%;
-  padding-top: 18px;
   background: #202a40;
+}
+
+.logo {
+  padding-top: 3px;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
+  padding-top: 15px;
 }
 
 .nav-li {
@@ -51,7 +55,7 @@ a {
 .content {
   width: 100%;
   margin: 0 auto;
-  max-width: 1180px;
+  max-width: 1208px;
   padding: 0 20px 0 20px;
 }
 
@@ -69,10 +73,11 @@ a {
   background: #ff0051;
   border: none;
   border-radius: 15px;
-  padding: 10px 35px 10px 40px;
+  padding: 13px 34px 13px 39px;
   font-weight: 500;
   outline: none;
   cursor: pointer;
+  font-size: 15px;
   &:hover {
     color: #fce941;
     background-color: #c40b46;
@@ -82,7 +87,7 @@ a {
 
 .container {
   text-align: center;
-  padding: 150px 0 145px 0;
+  padding: 138px 0 135px 0;
 }
 
 .header-title {
@@ -98,7 +103,7 @@ a {
 }
 
 .header-button {
-  padding: 15px 60px 15px 60px;
+  padding: 15px 57px 19px 58px;
   border-radius: 20px;
 }
 
