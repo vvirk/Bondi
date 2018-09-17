@@ -150,7 +150,7 @@ img {
 
 .service-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -210,7 +210,7 @@ img {
 
 .portfolio-projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 28px;
 }
@@ -219,7 +219,7 @@ img {
   width: 270px;
   height: 200px;
   background: white;
-  margin-bottom: 30px;
+  margin: 0 5px 30px 5px;
 }
 
 .button-wrapper {
@@ -243,7 +243,7 @@ img {
 
 .info-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -251,6 +251,13 @@ img {
   width: 100%;
   max-width: 380px;
   padding-top: 40px;
+}
+
+@media (max-width: 1140px) {
+  .info {
+    margin-bottom: 10px;
+    padding-top: 0;
+  }
 }
 
 .info-text {
@@ -278,10 +285,9 @@ img {
 
 .team-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 60px;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .member {
@@ -289,6 +295,7 @@ img {
   max-width: 270px;
   text-align: center;
   background: #ffffff;
+  margin: 5px;
 }
 
 .member-photo {
@@ -313,11 +320,14 @@ img {
 
 .clients-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 60px 35px 52px 35px;
   flex-wrap: wrap;
 }
 
+.client-logo {
+  margin: 5px;
+}
 
                                                /* advertise */
 
@@ -337,7 +347,7 @@ img {
 
 .stories-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-bottom: 60px;
   flex-wrap: wrap;
 }
@@ -345,12 +355,19 @@ img {
 .stori {
   width: 100%;
   max-width: 370px;
+  margin: 5px;
 }
 
 .stori-image {
   width: 370px;
   height: 135px;
   background: #eef7fa;
+}
+
+@media (max-width: 480px) {
+  .stori-image {
+    width: 270px;
+  }
 }
 
 .stori-date {
@@ -422,7 +439,7 @@ img {
 
 .footer-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 60px 0 50px 0;
   flex-wrap: wrap;
 }
@@ -507,6 +524,12 @@ img {
 }
 
 @media (max-width: 480px) {
+  .email-button {
+    padding: 16px 80px 16px 80px;
+  }
+}
+
+@media (max-width: 360px) {
   .email-button {
     padding: 16px 50px 16px 50px;
   }
